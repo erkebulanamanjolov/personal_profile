@@ -1,0 +1,58 @@
+@media screen and (max-width: 1080px) {
+    header {
+        font-size: 15px;
+        position: fixed;
+        width: 100%;
+        background-color: #2b2b2b;
+    }
+
+    section {
+        margin: 60px 0px;
+    }
+
+    #home {
+        margin: 0px;
+    }
+
+    .content {
+        flex-direction: column;
+        gap: 5px;
+        margin: 0px 25px;
+    }
+
+    .info h1{
+        font-size: 25px;
+    }
+
+    #home .content {
+        flex-direction: column-reverse;
+        gap: 25px;
+    }
+
+    .bio h1 {
+        font-size: 27px;
+    }
+
+    .bio p {
+        font-size: 15px;
+    }
+
+    .btn {
+        font-size: 15px;
+    }
+
+    #about img {
+        width: 350px;
+    }
+
+    #about h1 {
+        font-size: 27px;
+    }
+
+    #about p {
+        font-size: 15px;
+    }
+    .networks {
+        width: 100%;
+    }
+}

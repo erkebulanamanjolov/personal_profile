@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2b2b2b;
+}
+
+header h1 {
+    justify-content: center;
+    display: flex;
+    color: #b41f13;
+    margin: 0;
+    padding: 10px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.content {
+    display: flex;
+    max-width: 930px;
+    align-items: center;
+    gap: 50px;
+}
+
+#home img {
+    border-radius: 50%;
+}
+
+.content .info {
+    color: #fff;
+    font-family: "Poppins", serif;
+}
+
+.info h1 {
+    font-size: 40px;
+    margin: 0;
+    font-weight: 450;
+}
+
+.info p {
+    letter-spacing: 2px;
+    line-height: 1.5;
+    margin-bottom: 35px;
+}
+
+.btn {
+    border: 2px solid #b41f13;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-family: "Poppins", serif;
+    color: #fff;
+    background-color: transparent;
+    font-size: 17px;
+}
+
+#about img {
+    border-radius: 25px;
+}
+
+#about .bio {
+    letter-spacing: 2px;
+    line-height: 1.5;
+    margin-bottom: 35px;
+    font-family: "Poppins", serif;
+    color: #fff;
+}
+
+#contact .content{
+    width: 100%;
+    gap: 40px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form label {
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    color: #fff;
+}
+
+form input,
+textarea {
+    padding: 10px 20px;
+    font-size: 14px;
+    font-family: "Poppins", serif;
+    outline: none;
+    background: #1d1d1d00;
+    border: 1px solid #fff;
+    color: #fff;
+    resize: vertical;
+}
+.networks {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 20px;
+}
+
+.networks a{
+    text-decoration: none;
+    color: #fff;
+    font-family: "Poppins", serif;
+}
+
+.networks i{
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+footer{
+    background: #3a3a3a;
+    color: #fff;
+}
+
+footer p{
+margin: 0;
+padding: 30px;
+text-align: center;
+font-family: "Poppins", serif;
+}
